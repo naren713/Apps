@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel=stylesheet type=text/css href=jqueryui/css/smoothness/jquery-ui-1.8.16.custom.css />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <h2>To Do List</h2>
+        <button id="ToBeDone">New List</button>
+        <div id="main">
+            <ul id="tabs">
+                <li><a href="#personal">Personal</a><span class="ui-icon ui-icon-close"></span></li>
+                <li><a href="#work">Work</a><span class="ui-icon ui-icon-close"></span></li>
+
+            </ul>
+            <ol id="personal">
+                <li><input type="checkbox">Doctor Appointment</li>
+                <li><input type="checkbox">Visit Supermarket</li>
+                <li><input type="checkbox">Shopping</li>
+            </ol>
+            <ol id="work">
+                <li><input type="checkbox">Complete Documentation</li>
+                <li><input type="checkbox">Meeting with Manager</li>
+                <li><input type="checkbox">New Project</li>
+            </ol>
+        </div>
+        <button id="task">Add Task</button>
+        <div id="dialogBox" title="Add New List" style="display: none;">
+            <label for="NewTask"><strong>New Task List </strong></label><input id="NewTask" type="text">
+        </div>
+        <div id="TaskDialogBox" title="Add New Task" style="display: none;">
+            <label for="NewTasks"><strong>New Tasks </strong></label><input id="NewTasks" type="text">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

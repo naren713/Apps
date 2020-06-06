@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(26, 111, 223);
+    background-color: lightgoldenrodyellow;
+}
+
+#container {
+    height: 500px;
+    width: 800px;
+    margin: 100px auto;
+    border: 2px solid lightseagreen;
+}
+
+#ToBeDone {
+    margin-left: 650px;
+    background-color: tan;
+    height: 40px;
+    font-weight: bold;
+}
+
+#task {
+    margin-left: 650px;
+    background-color: tan;
+    height: 40px;
+    font-weight: bold;
+}
+
+#main {
+    height: 300px;
+    width: 700px;
+    margin: 10px auto;
+    border: 2px solid lightblue;
+}
+
+#tabs {
+    background-color: cornflowerblue;
+    list-style: none;
+}
+
+#tabs li {
+    list-style: none;
+    display: inline;
+    background-color: rgb(125, 181, 66);
+}
+
+ol li {
+    border: 1px dotted black;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+ol li:hover {
+    background-color: lightslategray;
+    color: white;
+}
+
+#NewTask {
+    width: 200px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background-color: cornflowerblue;
+}
+
+.ui-icon-close {
+    transform: scale(1.5);
+    cursor: pointer;
+}
